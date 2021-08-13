@@ -1,0 +1,10 @@
+[Unit]
+Description=Compass Queue WebApi
+
+[Service]
+ExecStart=/usr/bin/dotnet "/home/producao/PrevisaoPLD/shared/linuxQueue/LinuxQueueApi/bin/Release/netcoreapp2.0/LinuxQueueApi.dll"
+User=producao
+Group=producao
+
+[Install]
+WantedBy=multi-user.target

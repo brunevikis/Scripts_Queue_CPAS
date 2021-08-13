@@ -1,0 +1,352 @@
+<?xml version="1.0"?>
+<CommandMenu xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>root</Name>
+  <SubComands>
+    <CommandMenu>
+      <Name>Newave</Name>
+      <SubComands>
+        <CommandMenu>
+        <Name>Newave 27</Name>
+          <Command>/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/newave27.sh</Command>
+        </CommandMenu>
+		<CommandMenu>
+        <Name>Newave 27_Turbo</Name>
+          <Command>/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/newave27_Turbo.sh</Command>
+        </CommandMenu>
+        <CommandMenu>
+          <Name>Encadeado Newave 27 - GNL</Name>
+          <Command>/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/GNL/encad_dc_nw_mensal_3_27.sh</Command>
+        </CommandMenu>
+        <CommandMenu>
+          <Name>Outros 27</Name>
+          <SubComands>
+            <CommandMenu>
+              <Name>Newave 27 Consistencia</Name>
+              <Command>/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/newave27Cons.sh</Command>
+            </CommandMenu>
+            <CommandMenu>
+              <Name>ConverteNomesArquivos</Name>
+              <Command>/opt/aplicacoes/newave/bin/ConverteNomesArquivos</Command>
+            </CommandMenu>
+            <!--CommandMenu>
+              <Name>nwlistcf 27</Name>
+              <Command>/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/nwlistcf27.sh</Command>
+            </CommandMenu-->
+            <CommandMenu>
+              <Name>nwlistop 27</Name>
+              <Command>/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/nwlistop27.sh</Command>
+            </CommandMenu>
+            <!--CommandMenu>
+              <Name>newdesp 27</Name>
+              <Command>/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/newdesp27.sh</Command>
+            </CommandMenu-->
+          </SubComands>
+        </CommandMenu>
+        <!--<CommandMenu>
+          <Name>Newave 25</Name>
+          <Command>/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/newave25.sh</Command>
+        </CommandMenu>
+        <CommandMenu>
+          <Name>Outros</Name>
+          <SubComands>
+            <CommandMenu>
+              <Name>Newave 25 Consistencia</Name>
+              <Command>/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/newave25Cons.sh</Command>
+            </CommandMenu>
+            <CommandMenu>
+              <Name>ConverteNomesArquivos</Name>
+              <Command>/opt/aplicacoes/newave/bin/ConverteNomesArquivos</Command>
+            </CommandMenu>
+            <CommandMenu>
+              <Name>nwlistcf 25</Name>
+              <Command>/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/nwlistcf25.sh</Command>
+            </CommandMenu>
+            <CommandMenu>
+              <Name>nwlistop 25</Name>
+              <Command>/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/nwlistop25.sh all</Command>
+            </CommandMenu>
+            <CommandMenu>
+              <Name>newdesp 25</Name>
+              <Command>/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/newdesp25.sh</Command>
+            </CommandMenu>
+          </SubComands>
+        </CommandMenu>-->
+      </SubComands>
+    </CommandMenu>
+    <CommandMenu>
+      <Name>Decomp</Name>
+      <SubComands>
+
+        <!-- <CommandMenu>     -->
+        <!-- <Name>Decomp 28</Name> -->
+        <!-- <Command>/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/decomp28.sh</Command>                                         -->
+        <!-- </CommandMenu> -->
+
+       <CommandMenu>
+          <Name>Decomp 30.1 Convergencia</Name>
+          <Command>/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/decomp301Viab.sh</Command>
+        </CommandMenu>
+
+        <CommandMenu>
+          <Name>Multblock 30.1</Name>
+          <Command>/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/multiBlock_301.sh</Command>
+        </CommandMenu>
+
+
+
+        <CommandMenu>
+          <Name>Outros</Name>
+          <SubComands>
+			<CommandMenu>
+          <Name>Decomp 30.1 Encadeado</Name>
+          <Command>/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/decomp301_Encad.sh</Command>
+        </CommandMenu>
+
+           <!--CommandMenu>
+              <Name>Decomp 30 SERIE</Name>
+              <Command>/opt/aplicacoes/decomp/bin/decomp_30</Command>
+        </CommandMenu-->
+
+
+           <CommandMenu>
+		  <Name>Decomp 30.1 ConvPreliminar</Name>
+		  <Command>/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/decomp301Viab.sh preliminar</Command>
+		</CommandMenu>
+		
+		<!--CommandMenu>
+		  <Name>Decomp testeCotvol</Name>
+		  <Command>/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/teste_bruno_scripts/decomp301Viab.sh</Command>
+		</CommandMenu-->
+		
+		
+		<CommandMenu>
+		  <Name>Decomp 30</Name>
+		  <Command>/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/decomp30.sh</Command>
+		</CommandMenu>
+            
+        <CommandMenu>
+		  <Name>Decomp 30.1</Name>
+		  <Command>/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/decomp301.sh</Command>
+		</CommandMenu>
+
+
+
+
+          </SubComands>
+        </CommandMenu>
+      </SubComands>
+    </CommandMenu>
+	
+	<CommandMenu>
+      <Name>Dessem</Name>
+      <SubComands>
+		<CommandMenu>
+          <Name>Dessem 19.18</Name>
+          <Command>/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/dessem1918.sh</Command>
+        </CommandMenu>
+		<CommandMenu>
+          <Name>Dessem 19.14.1.3</Name>
+          <Command>/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/dessem191413.sh</Command>
+        </CommandMenu>
+		<CommandMenu>
+          <Name>Dessem 19.14.1.2</Name>
+          <Command>/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/dessem191412.sh</Command>
+        </CommandMenu>
+		<CommandMenu>
+          <Name>Dessem 19.14.1</Name>
+          <Command>/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/dessem1914.sh</Command>
+        </CommandMenu>
+		<!--CommandMenu>
+          <Name>Dessem Testes</Name>
+          <Command>/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/dessem1914_TESTES.sh</Command>
+        </CommandMenu-->
+		<!--CommandMenu>
+          <Name>Dessem Deflant</Name>
+          <Command>/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/teste_bruno_scripts/dessem1914.sh</Command>
+        </CommandMenu-->
+		<CommandMenu>
+          <Name>Dessem Deflant</Name>
+          <Command>/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/dessem191413deflant.sh</Command>
+        </CommandMenu>
+		<CommandMenu>
+          <Name>Decodess</Name>
+          <Command>/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/decodess.sh</Command>
+        </CommandMenu>
+	  </SubComands>
+    </CommandMenu>
+	
+    <CommandMenu>
+      <Name>Outros</Name>
+      <SubComands>
+        <!--CommandMenu>
+          <Name>Encadeado Mensal - NW + DC</Name>
+          <Command>/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/encad_dc_nw_mensal_3.sh</Command>
+          <Help>Estrutura de pastas: [caso]\[aaaamm] e [caso]\[decomp]\[aaaamm].\r\nApontar no caminho: [caso]\r\ne no argumentos: [aaaamm]</Help>
+        </CommandMenu-->
+        <!--CommandMenu>
+          <Name>Encadeado Mensal - Earm da operacao - NW + DC</Name>
+          <Command>/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/encad_dc_nw_mensal.sh</Command>
+          <Help>Estrutura de pastas: [caso]\[aaaamm] e [caso]\[decomp]\[aaaamm].\r\nApontar no caminho: [caso]\r\ne no argumentos: [aaaamm] [decomp]</Help>
+        </CommandMenu-->
+        <!--CommandMenu>
+          <Name>Encadeado Mensal - Earm da operacao - DC</Name>
+          <Command>/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/encad_decomp_mensal.sh</Command>
+          <Help>Estrutura de pastas: [caso]\[aaaamm] e [caso]\[decomp]\[aaaamm].\r\nApontar no caminho: [caso]\r\ne no argumentos: [aaaamm] [decomp]</Help>
+        </CommandMenu-->
+        <CommandMenu>
+          <Name>Criar sensibilidades RV0</Name>
+          <Command>/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/prevs_mensal_para_semanal.sh</Command>
+        </CommandMenu>
+		
+		    
+		
+		
+		
+        <CommandMenu>
+          <Name>Encadeado Semanal - Earm da operacao</Name>
+          <Command>/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/encad_decomp_semanal.sh</Command>
+          <Help>Estrutura de pastas: [estudo]\REV[x]\[cenario_n], onde n eh um valor de -9 a +9.\r\nSempre disparar no diretorio do cenario _0.\r\nO cenario _0 quando finalizadado propagara o earm paras os cenarios da REV seguinte.</Help>
+        </CommandMenu>
+        <CommandMenu>
+          <Name>Coleta de Resultados</Name>
+          <Command>/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/coleta.sh</Command>
+        </CommandMenu>
+        <CommandMenu>
+          <Name>R</Name>
+          <Command>/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/R/run.sh</Command>
+        </CommandMenu>
+        <!--CommandMenu>
+          <Name>Previvaz</Name>
+          <Command>L:\shared\previvaz\previvaz3.sh</Command>
+          <Help></Help>
+        </CommandMenu-->
+        <!--CommandMenu>
+          <Name>Prevs mensal para semanal</Name>
+          <Command>/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/prevs_mensal_para_semanal.sh</Command>
+          <Help></Help>
+        </CommandMenu-->
+        <!--CommandMenu>
+          <Name>Gevazp2020</Name>
+          <Command>/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/gevazp2020.sh</Command>
+          <Help></Help>
+        </CommandMenu-->
+		<!--
+		<CommandMenu>
+            <Name>Newave 26.1.3 Consistencia</Name>
+            <Command>/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/newave260103Cons.sh</Command>
+        </CommandMenu>
+		-->
+      </SubComands>
+    </CommandMenu>
+    <CommandMenu>
+      <Name>FT</Name>
+      <SubComands>
+        <CommandMenu>
+          <Name>Decomp 30.11 Convergencia</Name>
+          <Command>/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/FT/decomp30.11Viab.sh</Command>
+        </CommandMenu>
+        <CommandMenu>
+          <Name>Earm Enacadeado</Name>
+          <SubComands>
+            <CommandMenu>
+              <Name>Encad_earm</Name>
+              <Command>/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/FT/encad_mensal_NW+DC.sh</Command>
+            </CommandMenu>
+            <CommandMenu>
+              <Name>Encad_earm_GNL</Name>
+              <Command>/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/FT/encad_mensal_NW+DC_GNL.sh</Command>
+            </CommandMenu>
+          </SubComands>
+        </CommandMenu>
+		<!--
+        <CommandMenu>
+          <Name>Newave 2506</Name>
+          <Command>/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/newave2506.sh</Command>
+        </CommandMenu>
+		-->
+		<!--
+		<CommandMenu>
+          <Name>Newave 27.0.1</Name>
+          <Command>/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/newave270001.sh</Command>
+        </CommandMenu>
+		-->
+		<!--
+		<CommandMenu>
+          <Name>Newave 27.4.2</Name>
+          <Command>/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/newave270402.sh</Command>
+        </CommandMenu>
+		-->
+		<CommandMenu>
+          <Name>Newave 27.4.7</Name>
+          <Command>/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/newave270407.sh</Command>
+        </CommandMenu>
+		<!--<CommandMenu>
+          <Name>Newave 27.4.5</Name>
+          <Command>/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/newave270405.sh</Command>
+        </CommandMenu>
+        CommandMenu>
+          <Name>Newave 26.1.6 Consistencia</Name>
+          <Command>/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/newave260106Cons.sh</Command>
+        </CommandMenu>
+        <CommandMenu>
+          <Name>Encadeado Mensal 2506</Name>
+          <Command>/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/encad_dc_nw_mensal_3_2506.sh</Command>
+          <Help>Estrutura de pastas: [caso]\[aaaamm] e [caso]\[decomp]\[aaaamm].\r\nApontar no caminho: [caso]\r\ne no argumentos: [aaaamm]</Help>
+        </CommandMenu>
+        <CommandMenu>
+          <Name>Encadeado Mensal 26.1.6</Name>
+          <Command>/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/encad_dc_nw_mensal_3_260106.sh</Command>
+          <Help>Estrutura de pastas: [caso]\[aaaamm] e [caso]\[decomp]\[aaaamm].\r\nApontar no caminho: [caso]\r\ne no argumentos: [aaaamm]</Help>
+        </CommandMenu>
+		<CommandMenu>
+        <Name>Encadeado Newave 27.04.06 - GNL</Name>
+          <Command>/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/GNL/encad_dc_nw_mensal_3_270406.sh</Command>
+        </CommandMenu>
+		<CommandMenu>
+        <Name>Encadeado Newave 27.04.05 - GNL</Name>
+          <Command>/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/GNL/encad_dc_nw_mensal_3_270405.sh</Command>
+        </CommandMenu>
+    -->
+        <CommandMenu>
+        <Name>Encadeado Newave 27.04.07 - GNL</Name>
+          <Command>/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/encad_dc_nw_mensal_3_270407.sh</Command>
+        </CommandMenu>
+		
+
+      </SubComands>
+    </CommandMenu>
+    <!--CommandMenu>
+      <Name>Dessem</Name>
+      <SubComands>
+        <CommandMenu>
+          <Name>Dessem 16 8 1</Name>
+          <Command>/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/dessem1681.sh</Command>
+        </CommandMenu>
+        <CommandMenu>
+          <Name>Decodess 7 5 1</Name>
+          <Command>/opt/aplicacoes/dessem/bin/decodess_7.5.1</Command>
+        </CommandMenu>
+        <CommandMenu>
+                <Name>Dessem 11 09 CPLEX</Name>
+                <Command>/opt/aplicacoes/dessem/bin/dessem_11.9</Command>
+            </CommandMenu>
+            <CommandMenu>
+                <Name>Dessem 11 10</Name>
+                <Command>/opt/aplicacoes/dessem/bin/dessem_11.10</Command>
+            </CommandMenu>
+            <CommandMenu>
+                <Name>Dessem 11 12</Name>
+                <Command>/opt/aplicacoes/dessem/bin/dessem_11.12</Command>
+            </CommandMenu>
+            <CommandMenu>
+                <Name>Dessem 11 14 CPLEX</Name>
+                <Command>/opt/aplicacoes/dessem/bin/dessem_11.14</Command>
+            </CommandMenu>>
+        <CommandMenu>    
+                <Name>Decodess 7 04</Name>
+                <Command>/opt/aplicacoes/dessem/bin/decodess_7.4</Command>
+            </CommandMenu>        
+      </SubComands>
+    </CommandMenu-->
+  </SubComands>
+</CommandMenu>

@@ -1,0 +1,11 @@
+ord=4
+cluster=10.206.194.196
+usr=cs320326
+dir=/home/producao/PrevisaoPLD/6_decomp/03_Casos/2020_06/20-05-13/CV2_ACOMPH_FUNC_d-1_GEFS/arq_previvaz
+cmd=/home/producao/PrevisaoPLD/shared/previvaz/previvaz3.sh
+ign=False
+mail=False
+PID=38226
+STIME=2020-05-13 11:39:54
+EXITCODE=255
+ETIME=2020-05-13 11:39:56

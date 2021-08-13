@@ -1,0 +1,104 @@
+#/bin/bash
+
+    # script para executar diversos decomps em uma pasta, guardando os relatos e possiveis sumarios.
+
+
+#INICIO=$(date)
+
+echo $INICIO
+
+#$1 = rvx - pegar do caso.dat
+#$2 = #num dadger
+ 
+arqName=$( find . -iname caso.dat -exec head -n 1 {} ';' | tr [:upper:] [:lower:]);
+
+i=$1
+if [ -z $i ]
+then
+    i=1
+fi
+
+
+dir=$( ls -1 | tail -n+"$i" | head -n1 )
+
+
+
+if [ -d $dir ]
+then
+    cd $dir;
+    echo ""
+    echo "Executanto iteração $i";
+    echo $( pwd )
+
+    #mv dadger$i.$arqName dadger.$arqName
+    #wait
+
+    /opt/aplicacoes/cpas_ctl/scripts/decomp24W;
+
+    ec=$?
+
+    wait
+
+    if [[ $ec == 1 ]]
+    then 
+       exit 1;
+    fi
+
+    #mv -f relato.$arqName relato___$i.$arqName
+    #mv -f sumario.$arqName sumario___$i.$arqName
+    #mv -f dadger.$arqName dadger___$i.$arqName
+    
+    echo -e "\n\n\n"
+    echo "Concluido iteração $i com sucesso."
+    cd ..
+
+    i=$(($i+1))
+    dir_next=$( ls -1 | tail -n+"$i" | head -n1 )
+    sleep 1
+
+    if [ -n "$dir_next" ]
+    then
+        
+        dir=$( pwd )
+        cd $dir_next
+        echo "preparando reservatorio do mes seguinte"
+        for ar in *; do
+            AUXLOWER=`echo $ar | tr [:upper:] [:lower:]`;
+
+            if [ ! "$ar" == "$AUXLOWER" ]; then
+                echo -n "Convertendo $ar para $AUXLOWER ... ";
+                mv $ar $AUXLOWER;
+                if [ -f $AUXLOWER ]; then
+                    echo "ok";
+                else
+                    echo "erro";
+                fi
+            fi
+        done
+
+        /usr/bin/dos2unix dadger.*
+
+        /home/producao/PrevisaoPLD/cpas_ctl_common/scripts/calc_earm_2.sh;
+       
+        wait;
+
+        echo "agendar próxima iteração"
+        dt=$(date +%Y%m%d%H%M%S)
+        ord=$(($i+50))
+        usr="encad_decomp"
+        fn="/home/producao/PrevisaoPLD/cpas_ctl_common/queue/encad_decomp_${i}_${dt}"
+
+        echo "ord=${ord}" > ${fn}
+        echo "usr=${usr}" >> ${fn}
+        echo "dir=${dir}" >> ${fn}
+        echo "cmd=$0 $i"  >> ${fn}
+        echo "ign=False"  >> ${fn}
+        echo "cluster="  >> ${fn}
+        
+    fi
+fi
+
+
+echo $(date)
+
+

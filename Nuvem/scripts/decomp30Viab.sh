@@ -110,7 +110,7 @@ then
    
    rm -f relato.bkp
    cp -pf ./relato.* ./relato.bkp   
-   
+   cp -f relato.bkp "${origin_dir}";
    dotnet "/home/compass/sacompass/previsaopld/shared/price_tools/inviab/bin/Release/netcoreapp2.0/TrataInviab.dll" 1
    
    echo "/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/decomp.sh $v nao";
@@ -125,7 +125,7 @@ then
    
      rm -f relato.bkp
      cp -pf ./relato.* ./relato.bkp 
-	 
+	 cp -f relato.bkp "${origin_dir}";
 	 dotnet "/home/compass/sacompass/previsaopld/shared/price_tools/inviab/bin/Release/netcoreapp2.0/TrataInviab.dll" 3
 	 
 	 echo "/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/decomp.sh $v nao";

@@ -47,7 +47,7 @@ Verifica_Erro(){
 	
 	if [ "$ver_ENCAD" != "" ]; then
 		if [ "$ecode" != "0" ] && [ "$ecode" != "2" ]; then
-			echo -e "Caso: $commandname     \nEXITCODE: $ecode \nDiretorio:$dir_caso" | mail -A cpas -s "Erro no Estudo Encadeado" alex.marques@cpas.com.br,bruno.araujo@cpas.com.br,natalia.biondo@cpas.com.br,pedro.modesto@cpas.com.br
+			echo -e "Caso: $commandname     \nEXITCODE: $ecode \nDiretorio:$dir_caso" | mail -A cpas -s "Erro no Estudo Encadeado" bruno.araujo@enercore.com.br,natalia.biondo@enercore.com.br,pedro.modesto@enercore.com.br
 		fi
 	fi
 }

@@ -6,6 +6,7 @@ loss.dat
 perdas.dat
 mlt.dat
 polinjus.dat
+relato.bkp
 prevs.rv?
 rv?
 vazoes.dat

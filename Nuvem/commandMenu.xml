@@ -6,23 +6,31 @@
       <Name>Newave</Name>
       <SubComands>
         <CommandMenu>
-        <Name>Newave 27</Name>
-          <Command>/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/newave27.sh</Command>
+        <Name>Newave 27.0.1</Name>
+          <Command>/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/newave270001.sh</Command>
         </CommandMenu>
 		<CommandMenu>
         <Name>Newave 27_Turbo</Name>
           <Command>/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/newave27_Turbo.sh</Command>
         </CommandMenu>
         <CommandMenu>
-          <Name>Encadeado Newave 27 - GNL</Name>
-          <Command>/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/GNL/encad_dc_nw_mensal_3_27.sh</Command>
+          <Name>Encadeado Newave 27.0.1 - GNL</Name>
+          <Command>/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/GNL/encad_dc_nw_mensal_3_270001.sh</Command>
+        </CommandMenu>
+		<CommandMenu>
+          <Name>Encadeado Newave 27.0.1 - sem DC</Name>
+          <Command>/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/encad_nw_mensal_3_27.0.1.sh</Command>
+        </CommandMenu>
+		<CommandMenu>
+          <Name>Encadeado Newave 27.0.1 - Atingir Meta DC</Name>
+          <Command>/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/GNL/encad_dc_nw_mensal_3_270001_meta.sh</Command>
         </CommandMenu>
         <CommandMenu>
-          <Name>Outros 27</Name>
+          <Name>Outros 27.0.1</Name>
           <SubComands>
             <CommandMenu>
-              <Name>Newave 27 Consistencia</Name>
-              <Command>/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/newave27Cons.sh</Command>
+              <Name>Newave 27.0.1 Consistencia</Name>
+              <Command>/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/newave270001Cons.sh</Command>
             </CommandMenu>
             <CommandMenu>
               <Name>ConverteNomesArquivos</Name>
@@ -33,8 +41,8 @@
               <Command>/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/nwlistcf27.sh</Command>
             </CommandMenu-->
             <CommandMenu>
-              <Name>nwlistop 27</Name>
-              <Command>/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/nwlistop27.sh</Command>
+              <Name>nwlistop 27.0.1</Name>
+              <Command>/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/nwlistop270001.sh</Command>
             </CommandMenu>
             <!--CommandMenu>
               <Name>newdesp 27</Name>
@@ -141,6 +149,10 @@
       <Name>Dessem</Name>
       <SubComands>
 		<CommandMenu>
+          <Name>Dessem 19.0.24</Name>
+          <Command>/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/dessem19024.sh</Command>
+        </CommandMenu>
+		<CommandMenu>
           <Name>Dessem 19.18</Name>
           <Command>/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/dessem1918.sh</Command>
         </CommandMenu>
@@ -166,7 +178,7 @@
         </CommandMenu-->
 		<CommandMenu>
           <Name>Dessem Deflant</Name>
-          <Command>/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/dessem191413deflant.sh</Command>
+          <Command>/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/dessem19024deflant.sh</Command>
         </CommandMenu>
 		<CommandMenu>
           <Name>Decodess</Name>
@@ -242,8 +254,32 @@
       <Name>FT</Name>
       <SubComands>
         <CommandMenu>
+              <Name>Newave 27.4.12</Name>
+              <Command>/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/newave270412.sh</Command>
+        </CommandMenu>
+        <CommandMenu>
+              <Name>nwlistop 27.4.12</Name>
+              <Command>/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/nwlistop270412.sh</Command>
+        </CommandMenu>
+        <CommandMenu>
+          <Name>Encadeado Newave 27.04.12 - GNL</Name>
+          <Command>/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/GNL/encad_dc_nw_mensal_3_270412.sh</Command>
+        </CommandMenu>
+		<CommandMenu>
+          <Name>Encadeado Newave 27.04.12 - Atingir Meta DC</Name>
+          <Command>/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/GNL/encad_dc_nw_mensal_3_270412_meta.sh</Command>
+        </CommandMenu>
+        <CommandMenu>
+          <Name>Decomp 30.14 Convergencia</Name>
+          <Command>/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/FT/decomp30.14Viab.sh</Command>
+        </CommandMenu>
+        <CommandMenu>
           <Name>Decomp 30.11 Convergencia</Name>
           <Command>/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/FT/decomp30.11Viab.sh</Command>
+        </CommandMenu>
+        <CommandMenu>
+          <Name>Decomp 30.13 Convergencia</Name>
+          <Command>/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/FT/decomp30.13Viab.sh</Command>
         </CommandMenu>
         <CommandMenu>
           <Name>Earm Enacadeado</Name>
@@ -257,6 +293,24 @@
               <Command>/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/FT/encad_mensal_NW+DC_GNL.sh</Command>
             </CommandMenu>
           </SubComands>
+        </CommandMenu>
+		
+		<CommandMenu>
+              <Name>Newave 27.4.10</Name>
+              <Command>/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/newave270410.sh</Command>
+        </CommandMenu>
+		<CommandMenu>
+              <Name>nwlistop 27.4.10</Name>
+              <Command>/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/nwlistop270410.sh</Command>
+        </CommandMenu>
+		        <CommandMenu>
+        <Name>Encadeado Newave 27.04.10 - GNL</Name>
+          <Command>/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/GNL/encad_dc_nw_mensal_3_270410.sh</Command>
+        </CommandMenu>
+		
+		<CommandMenu>
+              <Name>nwlistop 27.4.7</Name>
+              <Command>/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/nwlistop270407.sh</Command>
         </CommandMenu>
 		<!--
         <CommandMenu>
@@ -309,7 +363,11 @@
     -->
         <CommandMenu>
         <Name>Encadeado Newave 27.04.07 - GNL</Name>
-          <Command>/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/encad_dc_nw_mensal_3_270407.sh</Command>
+          <Command>/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/GNL/encad_dc_nw_mensal_3_270407.sh</Command>
+        </CommandMenu>
+		<CommandMenu>
+          <Name>Newave 27.0.2</Name>
+          <Command>/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/newave270002.sh</Command>
         </CommandMenu>
 		
 

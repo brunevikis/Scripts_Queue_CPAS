@@ -110,7 +110,7 @@ then
    
    rm -f relato.bkp
    cp -pf ./relato.* ./relato.bkp   
-   
+   cp -f relato.bkp "${origin_dir}";
    dotnet "/home/compass/sacompass/previsaopld/shared/price_tools/inviab/bin/Release/netcoreapp2.0/TrataInviab.dll" 1
    /usr/bin/dotnet /home/compass/sacompass/previsaopld/shared/price_tools/inviab/bin/Debug/netcoreapp2.0/TrataInviab.dll "flexTucurui"
    
@@ -126,7 +126,7 @@ then
    
      rm -f relato.bkp
      cp -pf ./relato.* ./relato.bkp 
-	 
+	 cp -f relato.bkp "${origin_dir}";
 	 dotnet "/home/compass/sacompass/previsaopld/shared/price_tools/inviab/bin/Release/netcoreapp2.0/TrataInviab.dll" 3
 	 /usr/bin/dotnet /home/compass/sacompass/previsaopld/shared/price_tools/inviab/bin/Debug/netcoreapp2.0/TrataInviab.dll "flexTucurui"
 	 

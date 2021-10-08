@@ -58,6 +58,7 @@ re.dat
 ree.dat
 regras.dat
 relato.rv?
+relato.bkp
 relato__?.rv?
 relato__1?.rv?
 relgnl.rv?

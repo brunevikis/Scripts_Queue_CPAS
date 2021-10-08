@@ -23,7 +23,7 @@ AgendaProximaIteracao(){
     ord=$(( 20 + 10#$mesN ))
     usr="encad"
     fn="/home/compass/queuectl/queue/encadeado_NW${anoN}${mesN}_${dt}"
-    cmd="/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/GNL/encad_dc_nw_mensal_3_27.sh $1"
+    cmd="/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/GNL/encad_dc_nw_mensal_3_270001.sh $1"
 
     printf -v newComm "%s\n" "ord=${ord}" "usr=${usr}" "dir=$( pwd )" "cmd=${cmd}" "ign=False" "cluster="
 

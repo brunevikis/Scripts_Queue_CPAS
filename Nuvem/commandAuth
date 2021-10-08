@@ -5,34 +5,57 @@ A:/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/encad_dc_nw_mensal
 A:/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/encad_dc_nw_mensal_3_27.sh
 A:/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/newave27.sh
 A:/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/newave270001.sh
+A:/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/newave270002.sh
 A:/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/newave270402.sh
 A:/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/newave270405.sh
 A:/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/newave270406.sh
+A:/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/newave270407.sh
+A:/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/newave270410.sh
+
+A:/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/GNL/encad_earmNW_27.4.7.sh
+A:/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/GNL/encad_earmNW_27.sh
 
 A:/home/compass/sacompass/previsaopld/cpas_ctl_common/test/encad_dc_nw_mensal_3_27.sh
 
-A:/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/GNL/encad_dc_nw_mensal_3_27.sh
+A:/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/encad_nw_mensal_3_27.0.1.sh
+
+A:/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/GNL/encad_dc_nw_mensal_3_270001.sh
 A:/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/GNL/encad_dc_nw_mensal_3_270405.sh
 A:/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/GNL/encad_dc_nw_mensal_3_270406.sh
 A:/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/GNL/encad_dc_nw_mensal_3_270407.sh
+A:/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/GNL/encad_dc_nw_mensal_3_270410.sh
+A:/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/GNL/encad_dc_nw_mensal_3_270412.sh
+A:/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/GNL/encad_dc_nw_mensal_3_270001_meta.sh
+A:/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/GNL/encad_dc_nw_mensal_3_270412_meta.sh
 
 A:/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/FT/encad_mensal_NW+DC.sh
 A:/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/FT/encad_mensal_NW+DC_GNL.sh
 
 
 B:/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/GNL/DADGNL_decomp301Viab.sh
+B:/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/GNL/DADGNL_decomp301Viab_meta.sh
 B:/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/GNL/DADGNL_decomp301Viab_Turbo.sh
 B:/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/GNL/DADGNL_decomp3011Viab.sh
+B:/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/GNL/DADGNL_decomp3012Viab.sh
+B:/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/GNL/DADGNL_decomp3013Viab.sh
+B:/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/GNL/DADGNL_decomp3014Viab.sh
+B:/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/GNL/DADGNL_decomp3014Viab_meta.sh
 
+B:/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/GNL/DADGNL_decomp3011ViabREE.sh
 
 
 B:/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/newave27Cons.sh
 B:/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/nwlistop27.sh
+B:/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/nwlistop270407.sh
+B:/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/nwlistop270410.sh
 B:/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/decomp29Viab.sh
 B:/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/decomp30Viab.sh
 B:/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/decomp301_Encad.sh
 
 B:/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/FT/decomp30.11Viab.sh
+B:/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/FT/decomp30.12Viab.sh
+B:/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/FT/decomp30.13Viab.sh
+B:/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/FT/decomp30.14Viab.sh
 B:/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/decomp301Viab_test.sh
 B:/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/test.sh
 
@@ -46,11 +69,14 @@ B:/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/encad_decomp_seman
 B:/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/encad_decomp_semanal2.sh
 B:/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/multiBlock_301.sh
 
+C:/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/newave270001Cons.sh
+
 C:/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/encad_dc_nw_mensal_3_nat.sh
 C:/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/sync.sh
 C:/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/Conv_Arqs.sh
 C:/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/prevs_mensal_para_semanal.sh
 C:/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/coleta.sh
+C:/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/decodess.sh
 
 D:/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/dessem1914.sh
 D:/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/dessem191412.sh
@@ -59,7 +85,9 @@ D:/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/teste_bruno_script
 D:/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/teste_bruno_scripts/dessem191412.sh
 D:/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/dessem191413deflant.sh
 D:/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/dessem1918.sh
-D:/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/decodess.sh
+D:/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/dessem19024deflant.sh
+D:/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/dessem19024.sh
+
 
 T:/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/newave27_Turbo.sh
 T:/home/compass/sacompass/previsaopld/cpas_ctl_common/scripts/GNL/encad_dc_nw_mensal_3_27_Turbo.sh

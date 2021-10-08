@@ -29,7 +29,7 @@ verifica_run=$(grep ^cluster=$host$ /home/compass/queuectl/running/* | cut -f2 -
 		
 		/home/compass/sacompass/previsaopld/cpas_ctl_common/killer.sh $PID
 		
-		echo -e "Estudo Cancelado por Indisponibilidade da VM. Estudo será encaminha para fila novamente  \nDiretorio:$dir_caso" | mail -A cpas -s "Estudo Cancelado" alex.marques@cpas.com.br,bruno.araujo@cpas.com.br,natalia.biondo@cpas.com.br,pedro.modesto@cpas.com.br,thamires.baptista@cpas.com.br,carlos.paes@cpas.com.br
+		echo -e "Estudo Cancelado por Indisponibilidade da VM. Estudo será encaminha para fila novamente  \nDiretorio:$dir_caso" | mail -A cpas -s "Estudo Cancelado" pedro.modesto@enercore.com.br,bruno.araujo@enercore.com.br,natalia.biondo@enercore.com.br,thamires.baptista@enercore.com.br
 	fi
 	done
 	

@@ -55,6 +55,7 @@ re.dat
 ree.dat
 regras.dat
 relato.rv?
+relato.bkp
 rv?
 sar.dat
 selcor.dat

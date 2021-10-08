@@ -4,7 +4,7 @@
 
 ver=$1
 gevazp=$2
-[ -z "$2" ] && gevazp="8.1.4"
+[ -z "$2" ] && gevazp="8.1.5"
 hostfile="/home/compass/sacompass/previsaopld/cpas_ctl_common/hosts/$( hostname ).hosts.mpi"
 cores=0
 for nx in $(cut -d":" -f2 "$hostfile"); do cores=$(( cores + nx )); done
@@ -141,16 +141,16 @@ exCode=0
 gapnegativo=$( grep -c "GAP NEGATIVO" "relato.$arqName" );
 erronorelato=$( grep -c "ERRO(S) DE ENTRADA DE DADOS" "relato.$arqName" );
 
-# Tentativa de identificar o erro do C5
-
-if [ ! -s "sumario.$arqName" ]; then
-
-    echo -e "\n";
-#    echo "-----------[**********    C5 ataca novamente   **************]-----------"
-
-    exCode=5;
-fi
-# Tentativa de identificar o erro do C5
+## Tentativa de identificar o erro do C5
+#
+#if [ ! -s "sumario.$arqName" ]; then
+#
+#    echo -e "\n";
+##    echo "-----------[**********    C5 ataca novamente   **************]-----------"
+#
+#    exCode=5;
+#fi
+## Tentativa de identificar o erro do C5
 
 if [ "$gapnegativo" -gt 0 ]; then
     echo -e "\n";

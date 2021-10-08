@@ -1,0 +1,31 @@
+AZCPSPLDV02
+Iniciando
+Iniciando Start
+machinhe - AZCPSPLDV02
+Teste de Status
+running
+Vm running
+Fri Jan 24 22:56:29 UTC 2020 -  Iddle
+Fri Jan 24 22:57:29 UTC 2020 -  Iddle
+Fri Jan 24 22:58:30 UTC 2020 -  Iddle
+Shutting down
+az login --identity --allow-no-subscriptions
+[
+  {
+    "environmentName": "AzureCloud",
+    "id": "1a57e146-e577-48fa-b17a-e5eb684a4396",
+    "isDefault": true,
+    "name": "Compass",
+    "state": "Enabled",
+    "tenantId": "e7c411a6-9013-4967-a5b1-3d08f9edc13e",
+    "user": {
+      "assignedIdentityInfo": "MSI",
+      "name": "systemAssignedIdentity",
+      "type": "servicePrincipal"
+    }
+  }
+]
+az account set --subscription Compass
+az vm stop --resource-group PrevisaoPLD --name AZCPSPLDV02
+WARNING: About to power off the specified VM...
+It will continue to be billed. To deallocate a VM, run: az vm deallocate.

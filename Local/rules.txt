@@ -1,0 +1,357 @@
+#
+# Grande
+#
+# Furnas
+@ Periodo umido
+ref=6
+target=6
+type=qtur,turbmaxt
+month=12,1,2,3,4
+earm=.5,.2,0
+max=99999,500,400
+@ Periodo seco
+ref=6
+target=6
+type=qtur,turbmaxt
+month=5,6,7,8,9,10,11
+earm=.5,.2,0
+max=1688,846,400
+#
+# MM
+@ Periodo umido
+ref=7
+target=7
+type=qtur,turbmaxt
+month=12,1,2,3,4
+earm=.7,.3,0
+max=99999,500,400
+@ Periodo seco
+ref=7
+target=7
+type=qtur,turbmaxt
+month=5,6,7,8,9,10,11
+earm=.7,.3,0
+max=99999,1328,400
+#
+@ Marimbondo
+ref=6
+target=17
+type=varm,vmint
+month=1,2,3,4,5,6,7,8,9,10,11,12
+earm=.2,0,2
+min=793.63,0,0
+#
+@ Agua Vermelha
+ref=6
+target=18
+type=varm,vmint
+month=1,2,3,4,5,6,7,8,9,10,11,12
+earm=.2,0,2
+min=782.89,0,0
+#
+# Paranaíba
+#
+# Emborcação
+@ Periodo umido
+ref=24
+target=24
+type=qtur,turbmaxt
+month=12,1,2,3,4
+earm=.5,.2,0
+max=99999,140,140
+@ Periodo seco
+ref=24
+target=24
+type=qtur,turbmaxt
+month=5,6,7,8,9,10,11
+earm=.5,.2,0
+max=99999,786,524
+#
+# Itumbiara
+@ Periodo umido
+ref=31
+target=31
+type=qtur,turbmaxt
+month=12,1,2,3,4
+earm=.5,.2,0
+max=99999,784,490
+@ Periodo seco
+ref=31
+target=31
+type=qtur,turbmaxt
+month=5,6,7,8,9,10,11
+earm=.5,.2,0
+max=3222,1960,1470
+#
+@ São Simão
+ref=31
+target=33
+type=varm,vmint
+month=1,2,3,4,5,6,7,8,9,10,11,12
+earm=.2,0,2
+min=815.59,0,0
+#
+# Tocantins
+#
+# SM
+@ Periodo umido
+ref=251
+target=251
+type=qtur,turbmaxt
+month=12,1,2,3,4,5
+earm=.2,0
+max=99999,397
+@ Periodo seco
+ref=251
+target=251
+type=qtur,turbmaxt
+#month=6,7,8,9,10,11
+month=9,10,11
+earm=.2,.1,0
+max=99999,794,397
+#@ Praias - SM
+#ref=251
+#target=251
+#type=qdef,turbmaxt,vazmint
+#month=6,7,8
+#earm=0
+#max=600
+#min=600
+#@ Praias - Cana Brava
+#ref=252
+#target=252
+#type=qdef,turbmaxt,vazmint
+#month=6,7,8
+#earm=0
+#max=700
+#min=600
+#@ Praias - Peixe Angical
+#ref=257
+#target=257
+#type=qdef,turbmaxt,vazmint
+3month=6,7,8
+#earm=0
+#max=850
+#min=650
+#
+# São Francisco
+#
+# 3M
+@
+ref=156
+target=156
+type=qdef
+month=1,2,3,4,5,6,7,8,9,10,11,12
+earm=0,.3
+min=100,150
+@ jan
+ref=156
+target=156
+type=qtur,turbmaxt
+month=1
+earm=0,33.5%,38.6%,43.7%,48.9%,54.0%,59.1%,.6
+max=150,200,250,300,350,400,450,99999
+@ feb
+ref=156
+target=156
+type=qtur,turbmaxt
+month=2
+earm=0,37.0%,42.1%,47.3%,52.4%,57.5%,.6
+max=150,200,250,300,350,400,99999
+@ mar
+ref=156
+target=156
+type=qtur,turbmaxt
+month=3
+earm=0,39.2%,44.4%,49.6%,54.9%,.6
+max=150,200,250,300,350,99999
+@ apr
+ref=156
+target=156
+type=qtur,turbmaxt
+month=4
+earm=0,43.1%,48.3%,53.5%,58.7%,.6
+max=150,200,250,300,350,99999
+@ may
+ref=156
+target=156
+type=qtur,turbmaxt
+month=5
+earm=0,45.5%,50.8%,56.0%,.6
+max=150,200,250,300,99999
+@ jun
+ref=156
+target=156
+type=qtur,turbmaxt
+month=6
+earm=0,45.2%,50.4%,55.6%,.6
+max=150,200,250,300,99999
+@ jul
+ref=156
+target=156
+type=qtur,turbmaxt
+month=7
+earm=0,37.8%,43.0%,48.2%,53.5%,58.7%,.6
+max=150,200,250,300,350,400,99999
+@ aug
+ref=156
+target=156
+type=qtur,turbmaxt
+month=8
+earm=0,34.1%,39.4%,44.6%,49.8%,55.0%,.6
+max=150,200,250,300,350,400,99999
+@ sep
+ref=156
+target=156
+type=qtur,turbmaxt
+month=9
+earm=0,30.0%,31.5%,36.6%,41.7%,46.9%,52.0%,57.2%,.6
+max=150,200,250,300,350,400,450,500,99999
+@ oct
+ref=156
+target=156
+type=qtur,turbmaxt
+month=10
+earm=0,30.0%,32.6%,37.8%,42.9%,48.1%,.6
+max=150,300,350,400,450,500,99999
+@ nov
+ref=156
+target=156
+type=qtur,turbmaxt
+month=11
+earm= 0,30.0%,30.8%,35.9%,41.0%,46.2%,51.3%,.6
+max=150,  250,  300,  350,  400,  450,  500,99999
+@ dec
+ref=156
+target=156
+type=qtur,turbmaxt
+month=12
+earm= 0,30.0%,33.9%,39.1%,44.2%,49.4%,54.5%,59.7%,.6
+max=150,  200,  250,  300,  350,  400,  450,  500,99999
+#
+# Sobr
+#
+@
+ref=169
+target=169
+type=qdef,vazmint
+month=1,2,3,4,5,6,7,8,9,10,11,12
+earm= 0,.2
+min=700, 800
+#
+# Sobr - Xingo
+@
+ref=169
+target=178
+type=qdef,vazmint
+month=1,2,3,4,5,6,7,8,9,10,11,12
+earm= 0,.2,.6,2
+min=700, 800, 1100,800
+@ jan
+ref=169
+target=178
+type=qtur, TURBMAXT
+month=1
+earm= 0,35.6%,38.4%,41.2%, 44%,46.9%,49.7%,52.5%,55.4%,58.2%,.6,2
+max=800,  850,  900,  950,1000, 1050, 1100, 1150, 1200, 1250,2600,99999
+@ feb
+ref=169
+target=178
+type=qtur, turbmaxt
+month=2
+earm= 0,38.9%,41.7%,44.5%,47.3%,50.1%,52.9%,55.7%,58.5%,.6,2
+max=800,  850,  900,  950, 1000, 1050, 1100, 1150, 1200,2600,99999
+@ mar
+ref=169
+target=178
+type=qtur,turbmaxt
+month=3
+earm=0, 47.1%,50.0%,52.8%,55.7%,58.5%,.6,2
+max=800,  850,  900,  950, 1000, 1050,2300,99999
+@ apr
+ref=169
+target=178
+type=qtur,turbmaxt
+month=4
+earm= 0,54.0%,56.9%,59.8%,.6,2
+max=800,  850,  900,  950,1800,99999
+@ may
+ref=169
+target=178
+type=qtur,TURBMAXT
+month=5
+earm= 0,59.5%,.6,2
+max=800,  850,1800,99999
+@ jun
+ref=169
+target=178
+type=qtur, turbmaxt
+month=6
+earm= 0,58.4%,.6,2
+max=800,  850,1500,99999
+@ jul
+ref=169
+target=178
+type=qtur,turbmaxt
+month=7
+earm= 0,55.4%,58.3%,.6,2
+max=800,  850,  900,1800,99999
+@ aug
+ref=169
+target=178
+type=qtur,turbmaxt
+month=8
+earm= 0,45.3%,48.3%,51.3%,54.3%,.6,2
+max=800,  850,  900,  950, 1000,2000,99999
+@ sep
+ref=169
+target=178
+type=qtur,turbmaxt
+month=9
+earm= 0,34.5%,37.5%,40.4%,43.4%,.6,2
+max=800,  850,  900,  950, 1000,2000,99999
+@ oct
+ref=169
+target=178
+type=qtur,turbmaxt
+month=10
+earm= 0,28.2%,31.2%,34.1%,37.1%,.6,2
+max=800,  850,  900,  950, 1000,2300,99999
+@ nov
+ref=169
+target=178
+type=qtur,turbmaxt
+month=11
+earm= 0,24.3%,27.2%,30.1%,33.0%,.6,2
+max=800,  850,  900,  950, 1000,2600,99999
+@ dec
+ref=169
+target=178
+type=qtur,turbmaxt
+month=12
+earm= 0,26.1%,29.0%,31.9%,34.7%,37.6%,40.5%,43.4%,46.3%,49.1%,52.0%,54.9%,57.8%,.6,2
+max=800,  850,  900,  950, 1000, 1050, 1100, 1150, 1200, 1250, 1300, 1350, 1400,2600,99999
+#
+# Paranapanema
+#
+@ Jurumirim
+ref=47
+target=47
+type=qtur,turbmaxt
+month=1,2,3,4,5,6,7,8,9,10,11,12
+earm=0,.25, .3,.4
+max=90,147,182,99999
+@ Chavantes
+ref=49
+target=49
+type=qtur,turbmaxt
+month=1,2,3,4,5,6,7,8,9,10,11,12
+earm= 0, .2, .3,.4
+max=127,162,322,99999
+@ Capivara
+ref=61
+target=61
+type=qtur,turbmaxt
+month=1,2,3,4,5,6,7,8,9,10,11,12
+earm= 0,.15, .3,.4
+max=405,730,990,99999

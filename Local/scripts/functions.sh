@@ -134,7 +134,21 @@ function float_eval()
     return $stat
 }
 
-
+function round()
+{
+	local stat=0
+	local valor=$1
+	local result=0.0
+	local num=$(echo $valor | cut -c 6)
+	if [[ $num -gt 4 ]]; then
+		echo "scale=2; (($valor)+0.01)/1" | bc
+	else
+		echo "scale=2; (($valor))/1" | bc
+	fi
+	stat=$?
+	if [[ $stat -eq 0  &&  -z "$result" ]]; then stat=1; fi
+    return $stat
+}
 
 #float_cond '10.0 < 9.3';
 function float_cond()

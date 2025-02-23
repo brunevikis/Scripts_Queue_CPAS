@@ -1,8 +1,8 @@
 #!/bin/bash
 
-echo "/home/producao/PrevisaoPLD/cpas_ctl_common/scripts/newave.sh 27";
+echo "/home/producao/PrevisaoPLD/enercore_ctl_common/scripts/newave.sh 28";
 
-/home/producao/PrevisaoPLD/cpas_ctl_common/scripts/newave.sh 27 $1;
+/home/producao/PrevisaoPLD/enercore_ctl_common/scripts/newave.sh 27 $1;
 
 ec=$?
 

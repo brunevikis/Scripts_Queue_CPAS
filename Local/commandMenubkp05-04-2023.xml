@@ -1,0 +1,370 @@
+<?xml version="1.0"?>
+<CommandMenu xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>root</Name>
+  <SubComands>
+    <CommandMenu>
+      <Name>Newave</Name>
+      <SubComands>
+<!--
+        <CommandMenu>
+        <Name>Newave 27.0.1</Name>
+          <Command>/mnt/Fsx/AWS/enercore_ctl_common/scripts/newave270001.sh</Command>
+        </CommandMenu>
+-->
+         <CommandMenu>
+        <Name>Newave 280003</Name>
+          <Command>/home/producao/PrevisaoPLD/enercore_ctl_common/scripts/newave280003.sh</Command>
+        </CommandMenu>
+		
+         <CommandMenu>
+        <Name>Encadeado Newave 280003 - GNL</Name>
+          <Command>/home/producao/PrevisaoPLD/enercore_ctl_common/scripts/GNL/encad_dc_nw_mensal_3_280003.sh</Command>
+        </CommandMenu>
+<!--
+		<CommandMenu>
+          <Name>Encadeado Newave 280003 - GNL 2023</Name>
+          <Command>/home/producao/PrevisaoPLD/enercore_ctl_common/scripts/GNL/encad_dc_nw_mensal_3_280003_fix.sh</Command>
+        </CommandMenu>
+-->
+		<CommandMenu>
+          <Name>Encadeado Newave 280003 - Atingir Meta DC</Name>
+          <Command>/home/producao/PrevisaoPLD/enercore_ctl_common/scripts/GNL/encad_dc_nw_mensal_3_280003_meta.sh</Command>
+        </CommandMenu>
+		<CommandMenu>
+          <Name>Encadeado Newave 280003 - Atingir Meta DC REE sem UH fixado</Name>
+          <Command>/home/producao/PrevisaoPLD/enercore_ctl_common/scripts/GNL/encad_dc_nw_mensal_3_280003_metaREEuhNao.sh</Command>
+        </CommandMenu>
+		<CommandMenu>
+          <Name>Encadeado Newave 280003 - earm saida do DC</Name>
+          <Command>/home/producao/PrevisaoPLD/enercore_ctl_common/scripts/GNL/encad_dc_nw_mensal_3_280003_earDC.sh</Command>
+        </CommandMenu>
+		<!--
+        <CommandMenu>
+          <Name>Encadeado Newave 28 - GNL</Name>
+          <Command>/mnt/Fsx/AWS/enercore_ctl_common/scripts/GNL/encad_dc_nw_mensal_3_28.sh</Command>
+        </CommandMenu>
+        <CommandMenu>
+          <Name>Encadeado Newave 28 - GNL 2023</Name>
+          <Command>/mnt/Fsx/AWS/enercore_ctl_common/scripts/GNL/encad_dc_nw_mensal_3_28_fix.sh</Command>
+        </CommandMenu>
+		<CommandMenu>
+          <Name>Encadeado Newave 28 - Atingir Meta DC</Name>
+          <Command>/mnt/Fsx/AWS/enercore_ctl_common/scripts/GNL/encad_dc_nw_mensal_3_28_meta.sh</Command>
+        </CommandMenu>
+		<CommandMenu>
+          <Name>Encadeado Newave 28 - Atingir Meta DC REE sem UH fixado</Name>
+          <Command>/mnt/Fsx/AWS/enercore_ctl_common/scripts/GNL/encad_dc_nw_mensal_3_28_metaREEuhNao.sh</Command>
+        </CommandMenu>
+		-->
+<!--
+        <CommandMenu>
+          <Name>Encadeado Newave 27.0.1 - GNL</Name>
+          <Command>/mnt/Fsx/AWS/enercore_ctl_common/scripts/GNL/encad_dc_nw_mensal_3_270001.sh</Command>
+        </CommandMenu>
+        <CommandMenu>
+          <Name>Encadeado Newave 27.0.1 - sem DC</Name>
+          <Command>/mnt/Fsx/AWS/enercore_ctl_common/scripts/encad_nw_mensal_3_27.0.1.sh</Command>
+        </CommandMenu>
+        <CommandMenu>
+          <Name>Encadeado Newave 27.0.1 - Atingir Meta DC</Name>
+          <Command>/mnt/Fsx/AWS/enercore_ctl_common/scripts/GNL/encad_dc_nw_mensal_3_270001_meta.sh</Command>
+        </CommandMenu>
+        <CommandMenu>
+          <Name>Outros 27.0.1</Name>
+          <SubComands>
+            <CommandMenu>
+              <Name>Newave 27.0.1 Consistencia</Name>
+              <Command>/mnt/Fsx/AWS/enercore_ctl_common/scripts/newave270001.sh 3</Command>
+            </CommandMenu>
+            <CommandMenu>
+              <Name>ConverteNomesArquivos</Name>
+              <Command>/opt/aplicacoes/newave/bin/ConverteNomesArquivos</Command>
+            </CommandMenu>
+            <CommandMenu>
+              <Name>nwlistop 27.0.1</Name>
+              <Command>/mnt/Fsx/AWS/enercore_ctl_common/scripts/nwlistop270001.sh</Command>
+            </CommandMenu>
+          </SubComands>
+        </CommandMenu>
+-->
+        <CommandMenu>
+          <Name>Outros 28</Name>
+          <SubComands>
+<!--
+            <CommandMenu>
+              <Name>Newave 28 Consistencia</Name>
+              <Command>/home/producao/PrevisaoPLD/enercore_ctl_common/scripts/newave28.sh 3</Command>
+            </CommandMenu>
+-->
+			<CommandMenu>
+              <Name>Newave 280003 Consistencia</Name>
+              <Command>/home/producao/PrevisaoPLD/enercore_ctl_common/scripts/newaveCons280003.sh 3</Command>
+            </CommandMenu>
+			<CommandMenu>
+              <Name>Encadeado Newave 280003 GNL SEPARADO</Name>
+              <Command>/home/producao/PrevisaoPLD/enercore_ctl_common/scripts/GNL/encad_dc_nw_mensal_3_280003_GNLSEPARADO.sh</Command>
+            </CommandMenu>
+			
+			<CommandMenu>
+              <Name>Encadeado Newave 280003 teste adterm e dadgnl</Name>
+              <Command>/home/producao/PrevisaoPLD/enercore_ctl_common/scripts/GNL/teste/encad_dc_nw_mensal_3_280003.sh</Command>
+            </CommandMenu>
+<!--
+			<CommandMenu>
+              <Name>Newave 280003 2023 avulso</Name>
+              <Command>/home/producao/PrevisaoPLD/enercore_ctl_common/scripts/newave_ssd.sh 280003 1</Command>
+            </CommandMenu>
+-->
+            <CommandMenu>
+              <Name>nwlistop 280003</Name>
+              <Command>/home/producao/PrevisaoPLD/enercore_ctl_common/scripts/nwlistop280003.sh</Command>
+            </CommandMenu>
+          </SubComands>
+        </CommandMenu>
+      </SubComands>
+
+    </CommandMenu>
+
+    <CommandMenu>
+      <Name>Decomp</Name>
+      <SubComands>
+        <!--<CommandMenu>
+          <Name>Decomp 31 Convergencia</Name>
+          <Command>/home/producao/PrevisaoPLD/enercore_ctl_common/scripts/decomp31Viab.sh</Command>
+        </CommandMenu>
+        <CommandMenu>
+          <Name>Outros</Name>
+          <SubComands>
+            <CommandMenu>
+              <Name>Decomp 31 Encadeado</Name>
+              <Command>/home/producao/PrevisaoPLD/enercore_ctl_common/scripts/decomp31_Encad.sh</Command>
+            </CommandMenu>
+            <CommandMenu>
+              <Name>Decomp 31 ConvPreliminar</Name>
+              <Command>/home/producao/PrevisaoPLD/enercore_ctl_common/scripts/decomp31Viab.sh preliminar</Command>
+            </CommandMenu>
+            <CommandMenu>
+              <Name>Decomp 31</Name>
+              <Command>/home/producao/PrevisaoPLD/enercore_ctl_common/scripts/decomp31.sh</Command>
+            </CommandMenu>
+          </SubComands>
+        </CommandMenu> -->
+        <CommandMenu>
+          <Name>Decomp 31.0.2 Convergencia</Name>
+          <Command>/home/producao/PrevisaoPLD/enercore_ctl_common/scripts/decomp31.0.2Viab.sh</Command>
+        </CommandMenu>
+        <CommandMenu>
+          <Name>Outros</Name>
+          <SubComands>
+            <CommandMenu>
+              <Name>Decomp 31.0.2 Encadeado</Name>
+              <Command>/home/producao/PrevisaoPLD/enercore_ctl_common/scripts/decomp31.0.2_Encad.sh</Command>
+            </CommandMenu>
+            <CommandMenu>
+              <Name>Decomp 31.0.2 ConvPreliminar</Name>
+              <Command>/home/producao/PrevisaoPLD/enercore_ctl_common/scripts/decomp31.0.2Viab.sh preliminar</Command>
+            </CommandMenu>
+            <CommandMenu>
+              <Name>Decomp 31.0.2</Name>
+              <Command>/home/producao/PrevisaoPLD/enercore_ctl_common/scripts/decomp31.0.2.sh</Command>
+            </CommandMenu>
+          </SubComands>
+        </CommandMenu>
+      </SubComands>
+    </CommandMenu>
+    
+	
+    <CommandMenu>
+      <Name>Dessem</Name>
+      <SubComands>
+        <CommandMenu>
+          <Name>Dessem 19.0.40</Name>
+          <Command>/home/producao/PrevisaoPLD/enercore_ctl_common/scripts/dessem19040.sh</Command>
+        </CommandMenu>
+		<CommandMenu>
+          <Name>Dessem Deflant 19.0.40</Name>
+          <Command>/home/producao/PrevisaoPLD/enercore_ctl_common/scripts/dessem19040deflant.sh</Command>
+        </CommandMenu>
+        <CommandMenu>
+          <Name>Dessem 19.0.24</Name>
+          <Command>/home/producao/PrevisaoPLD/enercore_ctl_common/scripts/dessem19024.sh</Command>
+        </CommandMenu>
+		<CommandMenu>
+          <Name>Dessem 19.0.24.3</Name>
+          <Command>/home/producao/PrevisaoPLD/enercore_ctl_common/scripts/dessem190243.sh</Command>
+        </CommandMenu>
+        <CommandMenu>
+          <Name>Dessem 19.18</Name>
+          <Command>/home/producao/PrevisaoPLD/enercore_ctl_common/scripts/dessem1918.sh</Command>
+        </CommandMenu>
+        <CommandMenu>
+          <Name>Dessem 19.14.1.3</Name>
+          <Command>/home/producao/PrevisaoPLD/enercore_ctl_common/scripts/dessem191413.sh</Command>
+        </CommandMenu>
+        <CommandMenu>
+          <Name>Dessem 19.14.1.2</Name>
+          <Command>/home/producao/PrevisaoPLD/enercore_ctl_common/scripts/dessem191412.sh</Command>
+        </CommandMenu>
+        <CommandMenu>
+          <Name>Dessem 19.14.1</Name>
+          <Command>/home/producao/PrevisaoPLD/enercore_ctl_common/scripts/dessem1914.sh</Command>
+        </CommandMenu>
+        <CommandMenu>
+          <Name>Dessem Deflant</Name>
+          <Command>/home/producao/PrevisaoPLD/enercore_ctl_common/scripts/dessem19024deflant.sh</Command>
+        </CommandMenu>
+		<CommandMenu>
+          <Name>Dessem Deflant 19.0.24.3</Name>
+          <Command>/home/producao/PrevisaoPLD/enercore_ctl_common/scripts/dessem190243deflant.sh</Command>
+        </CommandMenu>
+        <CommandMenu>
+          <Name>Decodess</Name>
+          <Command>/home/producao/PrevisaoPLD/enercore_ctl_common/scripts/decodess.sh</Command>
+        </CommandMenu>
+      </SubComands>
+    </CommandMenu>
+    
+	
+	
+    <CommandMenu>
+      <Name>Outros</Name>
+      <SubComands>
+        <CommandMenu>
+          <Name>Criar sensibilidades RV0</Name>
+          <Command>/home/producao/PrevisaoPLD/enercore_ctl_common/scripts/prevs_mensal_para_semanal.sh</Command>
+        </CommandMenu>
+<!--
+        <CommandMenu>
+          <Name>Encadeado Semanal - Earm da operacao</Name>
+          <Command>/mnt/Fsx/AWS/enercore_ctl_common/scripts/encad_decomp_semanal.sh</Command>
+          <Help>Estrutura de pastas: [estudo]\REV[x]\[cenario_n], onde n eh um valor de -9 a +9.\r\nSempre disparar no diretorio do cenario _0.\r\nO cenario _0 quando finalizadado propagara o earm paras os cenarios da REV seguinte.</Help>
+        </CommandMenu>
+        <CommandMenu>
+          <Name>Coleta de Resultados</Name>
+          <Command>/mnt/Fsx/AWS/enercore_ctl_common/scripts/coleta.sh</Command>
+        </CommandMenu>
+        <CommandMenu>
+          <Name>R</Name>
+          <Command>/mnt/Fsx/AWS/enercore_ctl_common/scripts/R/run.sh</Command>
+        </CommandMenu>
+-->
+      </SubComands>
+    </CommandMenu>
+    <CommandMenu>
+      <Name>FT</Name>
+      <SubComands>
+      <CommandMenu>
+          <Name>NW 28.11.6 / DC 31.16</Name>
+          <SubComands>
+            <CommandMenu>
+              <Name>Decomp 31.16 Convergencia</Name>
+              <Command>/home/producao/PrevisaoPLD/enercore_ctl_common/scripts/FT/decomp31.16Viab.sh</Command>
+            </CommandMenu>
+            <CommandMenu>
+              <Name>Decomp 31.16</Name>
+              <Command>/home/producao/PrevisaoPLD/enercore_ctl_common/scripts/FT/decomp31.16.sh</Command>
+            </CommandMenu>
+            <CommandMenu>
+              <Name>Newave 28.11.6</Name>
+              <Command>/home/producao/PrevisaoPLD/enercore_ctl_common/scripts/FT/newave281106.sh</Command>
+            </CommandMenu>
+            <CommandMenu>
+              <Name>Encadeado Newave 28.11.6</Name>
+              <Command>/home/producao/PrevisaoPLD/enercore_ctl_common/scripts/FT/GNL/encad_dc_nw_mensal_3_281106.sh</Command>
+            </CommandMenu>
+            <CommandMenu>
+              <Name>Encadeado Newave 28.11.6 - ear saida do DC</Name>
+              <Command>/home/producao/PrevisaoPLD/enercore_ctl_common/scripts/FT/GNL/encad_dc_nw_mensal_3_281106_earDC.sh</Command>
+              <Help>Encadeado a partir do resultado do DC do mês anterior</Help>
+            </CommandMenu>
+            <CommandMenu>
+              <Name>Encadeado Newave 28.11.6 - rvs</Name>
+              <Command>/home/producao/PrevisaoPLD/enercore_ctl_common/scripts/FT/GNL/encad_dc_nw_mensal_3_281106_earRV.sh</Command>
+              <Help>Encadeado a partir do resultado do DC, rodando tds as rvs</Help>
+            </CommandMenu>
+            <CommandMenu>
+              <Name>nwlistop 28.11.6</Name>
+              <Command>/home/producao/PrevisaoPLD/enercore_ctl_common/scripts/FT/nwlistop281106.sh</Command>
+            </CommandMenu>
+          </SubComands>
+        </CommandMenu>
+        <CommandMenu>
+          <Name>NW 28.11.4 / DC 31.16</Name>
+          <SubComands>
+            <CommandMenu>
+              <Name>Decomp 31.16 Convergencia</Name>
+              <Command>/home/producao/PrevisaoPLD/enercore_ctl_common/scripts/FT/decomp31.16Viab.sh</Command>
+            </CommandMenu>
+            <CommandMenu>
+              <Name>Decomp 31.16</Name>
+              <Command>/home/producao/PrevisaoPLD/enercore_ctl_common/scripts/FT/decomp31.16.sh</Command>
+            </CommandMenu>
+            <CommandMenu>
+              <Name>Newave 28.11.4</Name>
+              <Command>/home/producao/PrevisaoPLD/enercore_ctl_common/scripts/FT/newave281104.sh</Command>
+            </CommandMenu>
+<!--            <CommandMenu>
+              <Name>Encadeado Newave 28.11.4</Name>
+              <Command>/home/producao/PrevisaoPLD/enercore_ctl_common/scripts/FT/GNL/encad_dc_nw_mensal_3_281104.sh</Command>
+            </CommandMenu> -->
+            <CommandMenu>
+              <Name>Encadeado Newave 28.11.4 - ear saida do DC</Name>
+              <Command>/home/producao/PrevisaoPLD/enercore_ctl_common/scripts/FT/GNL/encad_dc_nw_mensal_3_281104_earDC.sh</Command>
+              <Help>Encadeado a partir do resultado do DC do mês anterior</Help>
+            </CommandMenu>
+            <CommandMenu>
+              <Name>nwlistop 28.11.4</Name>
+              <Command>/home/producao/PrevisaoPLD/enercore_ctl_common/scripts/FT/nwlistop281104.sh</Command>
+            </CommandMenu>
+          </SubComands>
+        </CommandMenu>
+        <CommandMenu>
+          <Name>NW 28.11.3 / DC 31.15</Name>
+          <SubComands>
+            <CommandMenu>
+              <Name>Decomp 31.15 Convergencia</Name>
+              <Command>/home/producao/PrevisaoPLD/enercore_ctl_common/scripts/FT/decomp31.15Viab.sh</Command>
+            </CommandMenu>
+            <CommandMenu>
+              <Name>Decomp 31.15</Name>
+              <Command>/home/producao/PrevisaoPLD/enercore_ctl_common/scripts/FT/decomp31.15.sh</Command>
+            </CommandMenu>
+            <CommandMenu>
+              <Name>Newave 28.11.3</Name>
+              <Command>/home/producao/PrevisaoPLD/enercore_ctl_common/scripts/FT/newave281103.sh</Command>
+            </CommandMenu>
+<!--            <CommandMenu>
+              <Name>Encadeado Newave 28.11.3</Name>
+              <Command>/home/producao/PrevisaoPLD/enercore_ctl_common/scripts/FT/GNL/encad_dc_nw_mensal_3_281103.sh</Command>
+            </CommandMenu> -->
+            <CommandMenu>
+              <Name>Encadeado Newave 28.11.3 - ear saida do DC</Name>
+              <Command>/home/producao/PrevisaoPLD/enercore_ctl_common/scripts/FT/GNL/encad_dc_nw_mensal_3_281103_earDC.sh</Command>
+              <Help>Encadeado a partir do resultado do DC do mês anterior</Help>
+            </CommandMenu>
+            <CommandMenu>
+              <Name>Encadeado Newave 28.11.3 - ear saida do DC 2</Name>
+              <Command>/home/producao/PrevisaoPLD/enercore_ctl_common/scripts/FT/GNL/encad_dc_nw_mensal_3_281103_earDC_Tuctuc_sobr.sh</Command>
+              <Help>Encadeado a partir do resultado do DC do mês anterior, desconsidera o encadeadmento pra tuctuc e sobradinho</Help>
+            </CommandMenu>
+            <CommandMenu>
+              <Name>nwlistop 28.11.3</Name>
+              <Command>/home/producao/PrevisaoPLD/enercore_ctl_common/scripts/FT/nwlistop281103.sh</Command>
+            </CommandMenu>
+          </SubComands>
+        </CommandMenu>
+      </SubComands>
+    </CommandMenu>
+
+    <CommandMenu>
+      <Name>Testing</Name>
+        <SubComands>
+        <CommandMenu>
+          <Name>Encadeado Newave 280003 - GNL (earm Decomp)</Name>
+          <Command>/home/producao/PrevisaoPLD/enercore_ctl_common/scripts/GNL/encad_dc_nw_mensal_3_280003_earDC.sh</Command>
+        </CommandMenu>
+      </SubComands>
+    </CommandMenu>
+	
+  </SubComands>
+</CommandMenu>

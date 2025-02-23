@@ -1,0 +1,276 @@
+<?xml version="1.0"?>
+<CommandMenu xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>root</Name>
+  <SubComands>
+    <CommandMenu>
+      <Name>Newave</Name>
+      <SubComands>
+<!--
+        <CommandMenu>
+        <Name>Newave 27.0.1</Name>
+          <Command>/mnt/Fsx/AWS/enercore_ctl_common/scripts/newave270001.sh</Command>
+        </CommandMenu>
+-->
+         <CommandMenu>
+        <Name>Newave 28</Name>
+          <Command>/home/producao/previsaopld/enercore_ctl_common/scripts/newave28.sh</Command>
+        </CommandMenu>
+         <CommandMenu>
+        <Name>Encadeado</Name>
+          <Command>/home/producao/previsaopld/enercore_ctl_common/scripts/GNL/encad_dc_nw_mensal_3_28.sh</Command>
+        </CommandMenu>
+		
+		<CommandMenu>
+        <Name>Newave 28 - 10 GbE</Name>
+          <Command>/home/producao/previsaopld/enercore_ctl_common/scripts2/newave28.sh</Command>
+        </CommandMenu>
+         <CommandMenu>
+        <Name>Encadeado - 10 GbE</Name>
+          <Command>/home/producao/previsaopld/enercore_ctl_common/scripts2/GNL/encad_dc_nw_mensal_3_28.sh</Command>
+        </CommandMenu>
+		
+		<CommandMenu>
+        <Name>Newave 28 Virtualizado</Name>
+          <Command>/home/producao/previsaopld/enercore_ctl_common/scripts3/newave28.sh</Command>
+        </CommandMenu>
+         <CommandMenu>
+        <Name>Encadeado Virtualizado</Name>
+          <Command>/home/producao/previsaopld/enercore_ctl_common/scripts3/GNL/encad_dc_nw_mensal_3_28.sh</Command>
+        </CommandMenu>
+		<!--
+        <CommandMenu>
+          <Name>Encadeado Newave 28 - GNL</Name>
+          <Command>/mnt/Fsx/AWS/enercore_ctl_common/scripts/GNL/encad_dc_nw_mensal_3_28.sh</Command>
+        </CommandMenu>
+        <CommandMenu>
+          <Name>Encadeado Newave 28 - GNL 2023</Name>
+          <Command>/mnt/Fsx/AWS/enercore_ctl_common/scripts/GNL/encad_dc_nw_mensal_3_28_fix.sh</Command>
+        </CommandMenu>
+		<CommandMenu>
+          <Name>Encadeado Newave 28 - Atingir Meta DC</Name>
+          <Command>/mnt/Fsx/AWS/enercore_ctl_common/scripts/GNL/encad_dc_nw_mensal_3_28_meta.sh</Command>
+        </CommandMenu>
+		<CommandMenu>
+          <Name>Encadeado Newave 28 - Atingir Meta DC REE sem UH fixado</Name>
+          <Command>/mnt/Fsx/AWS/enercore_ctl_common/scripts/GNL/encad_dc_nw_mensal_3_28_metaREEuhNao.sh</Command>
+        </CommandMenu>
+		-->
+<!--
+        <CommandMenu>
+          <Name>Encadeado Newave 27.0.1 - GNL</Name>
+          <Command>/mnt/Fsx/AWS/enercore_ctl_common/scripts/GNL/encad_dc_nw_mensal_3_270001.sh</Command>
+        </CommandMenu>
+        <CommandMenu>
+          <Name>Encadeado Newave 27.0.1 - sem DC</Name>
+          <Command>/mnt/Fsx/AWS/enercore_ctl_common/scripts/encad_nw_mensal_3_27.0.1.sh</Command>
+        </CommandMenu>
+        <CommandMenu>
+          <Name>Encadeado Newave 27.0.1 - Atingir Meta DC</Name>
+          <Command>/mnt/Fsx/AWS/enercore_ctl_common/scripts/GNL/encad_dc_nw_mensal_3_270001_meta.sh</Command>
+        </CommandMenu>
+        <CommandMenu>
+          <Name>Outros 27.0.1</Name>
+          <SubComands>
+            <CommandMenu>
+              <Name>Newave 27.0.1 Consistencia</Name>
+              <Command>/mnt/Fsx/AWS/enercore_ctl_common/scripts/newave270001.sh 3</Command>
+            </CommandMenu>
+            <CommandMenu>
+              <Name>ConverteNomesArquivos</Name>
+              <Command>/opt/aplicacoes/newave/bin/ConverteNomesArquivos</Command>
+            </CommandMenu>
+            <CommandMenu>
+              <Name>nwlistop 27.0.1</Name>
+              <Command>/mnt/Fsx/AWS/enercore_ctl_common/scripts/nwlistop270001.sh</Command>
+            </CommandMenu>
+          </SubComands>
+        </CommandMenu>
+
+        <CommandMenu>
+          <Name>Outros 28</Name>
+          <SubComands>
+            <CommandMenu>
+              <Name>Newave 28 Consistencia</Name>
+              <Command>/mnt/Fsx/AWS/enercore_ctl_common/scripts/newave28.sh 3</Command>
+            </CommandMenu>
+            <CommandMenu>
+              <Name>nwlistop 28</Name>
+              <Command>/mnt/Fsx/AWS/enercore_ctl_common/scripts/nwlistop28.sh</Command>
+            </CommandMenu>
+          </SubComands>
+        </CommandMenu>
+		-->
+      </SubComands>
+
+    </CommandMenu>
+
+    <CommandMenu>
+      <Name>Decomp</Name>
+      <SubComands>
+        <CommandMenu>
+          <Name>Decomp 31 Convergencia</Name>
+          <Command>/home/producao/previsaopld/enercore_ctl_common/scripts/decomp31Viab.sh</Command>
+        </CommandMenu>
+		
+		<CommandMenu>
+          <Name>Decomp 31 Convergencia - 10GbE</Name>
+          <Command>/home/producao/previsaopld/enercore_ctl_common/scripts2/decomp31Viab.sh</Command>
+        </CommandMenu>
+		
+		<CommandMenu>
+          <Name>Decomp 31 Convergencia Virtualizado</Name>
+          <Command>/home/producao/previsaopld/enercore_ctl_common/scripts3/decomp31Viab.sh</Command>
+        </CommandMenu>
+        <CommandMenu>
+          <Name>Outros</Name>
+          <SubComands>
+		  <!--
+            <CommandMenu>
+              <Name>Decomp 31 Encadeado</Name>
+              <Command>/mnt/Fsx/AWS/enercore_ctl_common/scripts/decomp31_Encad.sh</Command>
+            </CommandMenu>
+            <CommandMenu>
+              <Name>Decomp 31 ConvPreliminar</Name>
+              <Command>/mnt/Fsx/AWS/enercore_ctl_common/scripts/decomp31Viab.sh preliminar</Command>
+            </CommandMenu>
+			-->
+            <CommandMenu>
+              <Name>Decomp 31</Name>
+              <Command>/home/producao/previsaopld/enercore_ctl_common/scripts/decomp31.sh</Command>
+            </CommandMenu>
+			
+			<CommandMenu>
+              <Name>Decomp 31 - 10GbE</Name>
+              <Command>/home/producao/previsaopld/enercore_ctl_common/scripts2/decomp31.sh</Command>
+            </CommandMenu>
+			
+			<CommandMenu>
+              <Name>Decomp 31 Virtualizado</Name>
+              <Command>/home/producao/previsaopld/enercore_ctl_common/scripts3/decomp31.sh</Command>
+            </CommandMenu>
+          </SubComands>
+        </CommandMenu>
+      </SubComands>
+    </CommandMenu>
+    
+	<!--
+    <CommandMenu>
+      <Name>Dessem</Name>
+      <SubComands>
+        <CommandMenu>
+          <Name>Dessem 19.0.24</Name>
+          <Command>/mnt/Fsx/AWS/enercore_ctl_common/scripts/dessem19024.sh</Command>
+        </CommandMenu>
+		<CommandMenu>
+          <Name>Dessem 19.0.24.3</Name>
+          <Command>/mnt/Fsx/AWS/enercore_ctl_common/scripts/dessem190243.sh</Command>
+        </CommandMenu>
+        <CommandMenu>
+          <Name>Dessem 19.18</Name>
+          <Command>/mnt/Fsx/AWS/enercore_ctl_common/scripts/dessem1918.sh</Command>
+        </CommandMenu>
+        <CommandMenu>
+          <Name>Dessem 19.14.1.3</Name>
+          <Command>/mnt/Fsx/AWS/enercore_ctl_common/scripts/dessem191413.sh</Command>
+        </CommandMenu>
+        <CommandMenu>
+          <Name>Dessem 19.14.1.2</Name>
+          <Command>/mnt/Fsx/AWS/enercore_ctl_common/scripts/dessem191412.sh</Command>
+        </CommandMenu>
+        <CommandMenu>
+          <Name>Dessem 19.14.1</Name>
+          <Command>/mnt/Fsx/AWS/enercore_ctl_common/scripts/dessem1914.sh</Command>
+        </CommandMenu>
+        <CommandMenu>
+          <Name>Dessem Deflant</Name>
+          <Command>/mnt/Fsx/AWS/enercore_ctl_common/scripts/dessem19024deflant.sh</Command>
+        </CommandMenu>
+		<CommandMenu>
+          <Name>Dessem Deflant 19.0.24.3</Name>
+          <Command>/mnt/Fsx/AWS/enercore_ctl_common/scripts/dessem190243deflant.sh</Command>
+        </CommandMenu>
+        <CommandMenu>
+          <Name>Decodess</Name>
+          <Command>/mnt/Fsx/AWS/enercore_ctl_common/scripts/decodess.sh</Command>
+        </CommandMenu>
+      </SubComands>
+    </CommandMenu>
+    -->
+	
+	<!--
+    <CommandMenu>
+      <Name>Outros</Name>
+      <SubComands>
+        <CommandMenu>
+          <Name>Criar sensibilidades RV0</Name>
+          <Command>/mnt/Fsx/AWS/enercore_ctl_common/scripts/prevs_mensal_para_semanal.sh</Command>
+        </CommandMenu>
+
+        <CommandMenu>
+          <Name>Encadeado Semanal - Earm da operacao</Name>
+          <Command>/mnt/Fsx/AWS/enercore_ctl_common/scripts/encad_decomp_semanal.sh</Command>
+          <Help>Estrutura de pastas: [estudo]\REV[x]\[cenario_n], onde n eh um valor de -9 a +9.\r\nSempre disparar no diretorio do cenario _0.\r\nO cenario _0 quando finalizadado propagara o earm paras os cenarios da REV seguinte.</Help>
+        </CommandMenu>
+        <CommandMenu>
+          <Name>Coleta de Resultados</Name>
+          <Command>/mnt/Fsx/AWS/enercore_ctl_common/scripts/coleta.sh</Command>
+        </CommandMenu>
+        <CommandMenu>
+          <Name>R</Name>
+          <Command>/mnt/Fsx/AWS/enercore_ctl_common/scripts/R/run.sh</Command>
+        </CommandMenu>
+-->
+      </SubComands>
+    </CommandMenu>
+<!--
+    <CommandMenu>
+      <Name>FT</Name>
+      <SubComands>
+        <CommandMenu>
+              <Name>Newave 27.4.16</Name>
+              <Command>/mnt/Fsx/AWS/enercore_ctl_common/scripts/newave270416.sh</Command>
+        </CommandMenu>
+        <CommandMenu>
+              <Name>Newave 27.4.16 consistencia</Name>
+              <Command>/mnt/Fsx/AWS/enercore_ctl_common/scripts/newave270416.sh 3</Command>
+        </CommandMenu>
+        <CommandMenu>
+              <Name>nwlistop 27.4.16</Name>
+              <Command>/mnt/Fsx/AWS/enercore_ctl_common/scripts/nwlistop270416.sh</Command>
+        </CommandMenu>
+        <CommandMenu>
+        <Name>Encadeado Newave 27.04.16 - GNL</Name>
+          <Command>/mnt/Fsx/AWS/enercore_ctl_common/scripts/GNL/encad_dc_nw_mensal_3_270416.sh</Command>
+        </CommandMenu>
+        <CommandMenu>
+          <Name>Earm Enacadeado</Name>
+          <SubComands>
+            <CommandMenu>
+              <Name>Encad_earm</Name>
+              <Command>/mnt/Fsx/AWS/enercore_ctl_common/scripts/FT/encad_mensal_NW+DC.sh</Command>
+            </CommandMenu>
+            <CommandMenu>
+              <Name>Encad_earm_GNL</Name>
+              <Command>/mnt/Fsx/AWS/enercore_ctl_common/scripts/FT/encad_mensal_NW+DC_GNL.sh</Command>
+            </CommandMenu>
+          </SubComands>
+        </CommandMenu>
+        <CommandMenu>
+          <Name>Newave 27.0.2</Name>
+          <Command>/mnt/Fsx/AWS/enercore_ctl_common/scripts/newave270002.sh</Command>
+        </CommandMenu>
+      </SubComands>
+    </CommandMenu>
+
+    <CommandMenu>
+      <Name>Testing</Name>
+        <SubComands>
+        <CommandMenu>
+          <Name>Encadeado Newave 28 - GNL (earm Decomp)</Name>
+          <Command>/mnt/Fsx/AWS/enercore_ctl_common/scripts/GNL/encad_dc_nw_mensal_3_28_earDC.sh</Command>
+        </CommandMenu>
+      </SubComands>
+    </CommandMenu>
+	-->
+  </SubComands>
+</CommandMenu>

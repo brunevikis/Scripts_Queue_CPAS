@@ -68,7 +68,7 @@ check_command_v2(){
  _cluGrp=$( echo $1 | cut -c1 )
  _cmd=$( echo $2 | cut -f1 -d' ' )
  
- if [[ -n $( grep "$_cluGrp:$_cmd" commadAuth ) ]]
+ if [[ -n $( grep "$_cluGrp:$_cmd" commandAuth ) ]]
  then 
  echo "OK"
  else 

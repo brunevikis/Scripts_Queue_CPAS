@@ -8,7 +8,7 @@ ena=$(ls | grep '^DC_')
 echo ${dc}
 
 mkdir .tmp
-find RV0 -regex ".*\(dad.*.rv0\|/rv0\|.*.dat\|.*.DAT\)" -exec cp --parents -t .tmp {} +
+find RV0 -regex ".*\(dad.*.rv0\|/rv0\|.*.dat\|.*.DAT\|indices.csv\|polinjus.csv\)" -exec cp --parents -t .tmp {} +
 
 for e in $ena ; do
 
